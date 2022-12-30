@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+       body{
+        background-color:#545454;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+       }
+
+       .container{
+        height: 100%;
+       }
+
+       .cardone{
+
+        width: 100%;
+        border: none;
+        border-radius: 15px;
+        padding: 8px;
+        background-color: #fff;
+        position: relative;
+        height: 100%;
+       }
+       .profile{
+        margin-top: -10%;
+        
+       }
+       .dp{
+        border: 5px solid #fff;
+
+       }
+       .cardtwo{
+              width: 50%;
+              border-radius: 10px;
+              border-top: 5px solid green;
+              padding: 8px;
+              background-color: #ecf0f1;
+              position: relative;
+              height: 100%;
+              margin-left: 25%;
+              
+              
+       }
+       .subbtn{
+              border-radius: 10px;
+
+       }
+       .cardthree{
+              width: 100%;
+              border: none;
+              
+              padding: 8px;
+              background-color: #fff;
+              position: relative;
+              height: 100%;
+       }
+       .cardfour{
+              width: 100%;
+              border: none;
+              
+              padding: 8px;
+              background-color: #fff;
+              position: relative;
+              height: 100%;
+       }
+       .cardFive{
+              width: 100%;
+              border: none;
+              padding: 8px;
+              background-color: #fff;
+              position: relative;
+              height: 100%;
+       }
+       
+       
+       .basic, .standard,.premium{
+              background-color:  #fad64a;
+       }
+       .copyright{
+              align-items: center;
+       }
+       .alertOne{
+              display: none;
+       }
+       .alertTwo{
+              display: none;
+       }
+       .larrow{
+              color: brown;
+              font-size: x-large;
+       }
+       .rarrow{
+              color: brown;
+              font-size: x-large;
+       }
+       .leaf{
+              color: green;
+              font-size: x-large;
+       }
+       .developers{
+              color: brown;
+              font-size: x-large;
+       }
+       
+
+       @media (min-width: 900px){
+              .pricing{
+                     display: flex;
+              }
+              
+                     
+                   
+       }
+       @media (max-width: 800px){
+              .cardtwo{
+                     width: 80%;
+                     align-items: center;
+                     border-radius: 10px;
+                     border-top: 5px solid green;
+                     background-color: #ecf0f1;
+                     position: relative;
+                     height: 100%;
+                     margin-left: 10%;
+                     
+                     
+              }
+              
+                     
+                   
+       }
+       
